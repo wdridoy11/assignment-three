@@ -1,0 +1,129 @@
+/*========== common css ==========*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: 'EB Garamond', serif;
+
+}
+
+a,
+li,
+p {
+   font-family: 'Poppins', sans-serif;
+
+}
+
+.primary-btn-bg {
+   background: #B68C5A;
+   transition: 0.5s;
+}
+
+.primary-btn-bg:hover {
+   background: #000;
+   color: #fff;
+}
+
+/*========== banner section custom css ==========*/
+.banner {
+   width: 100%;
+   background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%), url(../images/banner.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 8px;
+}
+
+.banner-title {
+   font-size: 72px;
+   line-height: 85px;
+   font-weight: 800;
+}
+
+/*========== Legal Practice custom css ==========*/
+.description {
+   width: 50%;
+}
+
+.lp-color {
+   color: #707070;
+}
+
+/*========== testimonial  custom css  ==========*/
+.testimonial {
+   width: 100%;
+   background: linear-gradient(#00000090, #00000090), url(../images/banner.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 8px;
+}
+
+.testimonial-description {
+   width: 70%;
+}
+
+/*========== FAQ  custom css  ==========*/
+.faq-btn {
+   font-size: 24px;
+   font-weight: 800;
+   color: #414040;
+}
+
+/*========== footer custom css ==========*/
+.fa-paper-plane {
+   font-size: 24px;
+}
+
+.footer-text-color {
+   color: #CFCFCF;
+}
+
+/*========== Responsive design ==========*/
+@media screen and (max-width:992px) {
+
+   .banner,
+   .testimonial {
+      background-position: right;
+   }
+
+   .banner-title {
+      font-size: 50px;
+      line-height: 55px;
+   }
+
+   .banner-form.description {
+      width: 80%;
+   }
+}
+
+@media screen and (max-width:768px) {
+   .banner-title {
+      font-size: 30px;
+      line-height: 35px;
+   }
+
+   .description {
+      width: 100%;
+   }
+
+   .testimonial-description {
+      width: 100%;
+      padding: 0 10px;
+   }
+
+   .faq-btn {
+      font-size: 18px;
+   }
+}
+
+@media screen and (max-width:576px) {
+
+   .banner,
+   .testimonial {
+      background-position: 85% 0%;
+   }
+}
